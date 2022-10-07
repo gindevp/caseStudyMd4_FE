@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function (){
+
+            $(".comment-user-contain-show").click(function () {
+                $(".comment-user-contain-delete").hide();
+            });
+
+            $(".comment-user-contain-show1").click(function () {
+                $(".comment-user-contain-delete").show();
+            });
+
+        })
+
+        function a(){
+          let ab=$('#heloo').val()
+            console.log(ab)
+        }
+    </script>
+
+</head>
+<body>
+<h1>User</h1>
+<div class="comment-user-contain-show">alo</div>
+<div class="comment-user-contain-show1">blo</div>
+<p class="comment-user-contain-delete">sdfghjkl;</p>
+<input type="text" id="heloo">
+<button onclick="a()">adcadf</button>
+</body>
+</html>
